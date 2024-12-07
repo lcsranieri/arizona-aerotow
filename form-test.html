@@ -1,6 +1,9 @@
 <html>
   <body>
-    <h1>Contact Form</h1>
+    <div align="left" style="font-family: Chakra Petch, sans-serif">
+      <b>Contact Form</b>
+      <br>
+    </div>
     <form action="https://formsubmit.co/c998d95b222ec4506b4c668e698e6c7c" method="POST">
 
       <!--Honeypot-->
@@ -8,9 +11,13 @@
       <!--Disable Captcha-->
       <input type="hidden" name="_captcha" value="false"-->
 
-      <input type="text" name="Name" placeholder="First and Last Name" required>
+      <!--Contact Form Section-->
+      <section>
+      <input type="text" name="First&nbsp;Name" placeholder="First Name" required>
       <br>
-      <input type="tel" name="Phone Number" placeholder="415-297-3005" required>
+      <input type="text" name="Last&nbsp;Name" placeholder="Last Name" required>
+      <br>
+      <input type="tel" name="Phone&nbsp;Number" placeholder="Phone Number" required>
       <br>
       <input type="email" name="Email" placeholder="Email" required>
       <br>
@@ -26,7 +33,7 @@
         <option>Florida</option>
         <option>Georgia</option>
       </select>
-      <select name="Service of Interest">
+      <select name="Service&nbsp;of&nbsp;Interest">
         <option>Glider Towing</option>
         <option>Tailwheel Training</option>
         <option>Other</option>
@@ -35,6 +42,8 @@
       <textarea name="Message" placeholder="Message" required></textarea>
       <br>
       <button type="submit">Send</button>
+      <!--Enf of Contact Form Section-->
     </form>
+
   </body>
 </html>
